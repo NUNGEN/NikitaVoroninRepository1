@@ -1,0 +1,39 @@
+header h1{
+    border: dotted 2px black; /*dashed, outline,double, double, ääris*/
+    padding: 3%; /*vahe tekstist ääriseni*/
+    margin: 10px; /*vahe veebilehe piirist ääriseni*/
+    border-radius: 30px;
+    width: 48%; /*laius*/
+    background-color:cornflowerblue; /*tausta värv*/
+    letter-spacing: 0.2cm;
+    font-variant: small-caps;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: cornflowerblue;
+}
+li{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+li a:hover { /*Lingid fookuses*/
+    background-color: cornflowerblue;
+}
+footer{
+
+text-align: center;
+/**/
+background-color: cornflowerblue;  }
+footer{
+
+}
