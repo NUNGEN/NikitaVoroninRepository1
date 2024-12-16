@@ -1,0 +1,17 @@
+table#Lihtne, td{
+    /*html failis id=Lihtne*/
+    width: 50%;
+    border: 1px solid black;
+    text-align: center; /*teksti joondamine keskele*/
+    paddiing: 10px; /*vahetekstist ääriseni*/
+    /*border-collapse: collapse;*/
+}
+table#keeruline1, table#keeruline2, table#keeruline3, td{
+
+    width: 50%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 2px;
+    /*border-collapse: collapse;*/
+    background-color: cornflowerblue;
+}
