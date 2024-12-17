@@ -6,12 +6,36 @@ table#Lihtne, td{
     paddiing: 10px; /*vahetekstist ääriseni*/
     /*border-collapse: collapse;*/
 }
-table#keeruline1, table#keeruline2, table#keeruline3, td{
+table#keeruline1, table#keeruline2, table#keeruline3, td {
 
     width: 50%;
     border: 1px solid black;
     text-align: center;
     padding: 2px;
     /*border-collapse: collapse;*/
-    background-color: cornflowerblue;
+    background-color: cornflowerblue
+}
+    table#iseseisevtöö, td {
+    /*html failis id=Lihtne*/
+    width: 50%;
+    border: 1px solid black;
+    text-align: center; /*teksti joondamine keskele*/
+    paddiing: 10px; /*vahetekstist ääriseni*/
+    /*border-collapse: collapse;*/
+}
+table#iseseisevtöö2, td {
+    /*html failis id=Lihtne*/
+    width: 50%;
+    border: 1px solid black;
+    text-align: center; /*teksti joondamine keskele*/
+    paddiing: 5px; /*vahetekstist ääriseni*/
+    /*border-collapse: collapse;*/
+}
+table#iseseisevtöö3, td {
+    /*html failis id=Lihtne*/
+    width: 50%;
+    border: 1px solid black;
+    text-align: center; /*teksti joondamine keskele*/
+    paddiing: 5px; /*vahetekstist ääriseni*/
+    /*border-collapse: collapse;*/
 }
