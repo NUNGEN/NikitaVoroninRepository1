@@ -38,16 +38,63 @@ table#iseseisevtöö3, td {
     text-align: center; /*teksti joondamine keskele*/
     paddiing: 5px; /*vahetekstist ääriseni*/
     /*border-collapse: collapse;*/
-}
 #uus{
     width: 50%;
     height: 200px;
+    border: 3px solid black;
 }
 #uus tr:nth-child(1) td:nth-child(1){
-    background-color: red;
-    width: 25px;
+    background-color: deepskyblue;
+    width: 15px;
+    height: 35px;
 }
-    #uus tr:nth-child(2) td:nth-child(2){
-        background-color: deepskyblue;
+    #uus tr:nth-child(1) td:nth-child(2){
+        background-color: blue;
         width: 25px;
+        height: 35px;
+}
+#uus tr:nth-child(1) td:nth-child(3){
+    background-color: darkblue;
+    width: 25px;
+    height: 38px;
+}
+#uus tr:nth-child(1) td:nth-child(4){
+    background-color: midnightblue;
+    width: 25px;
+    height: 35px;
+}
+#uus tr:nth-child(2) td:nth-child(1){
+    background-color: mediumblue;
+    width: 25px;
+    height: 35px;
+}
+#uus tr:nth-child(2) td:nth-child(2){
+    background-color: skyblue;
+    width: 25px;
+    height: 35px;
+}
+#uus tr:nth-child(2) td:nth-child(3){
+    background-color: cornflowerblue;
+    width: 25px;
+    height: 35px;
+}
+#uus tr:nth-child(2) td:nth-child(3){
+    background-color: powderblue;
+    width: 25px;
+    height: 35px;
+}
+#uus tr:nth-child(3) td:nth-child(1){
+    background-color: mediumslateblue;
+    width: 25px;
+    height: 35px;
+}
+#uus tr:nth-child(3) td:nth-child(2){
+    background-color: mediumpurple;
+    width: 25px;
+    height: 35px;
+}
+#uus tr:nth-child(4) td:nth-child(1){
+    background-color: darkslateblue;
+    width: 35px;
+    height: 35px;
 }
