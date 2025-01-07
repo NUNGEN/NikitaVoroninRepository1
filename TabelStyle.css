@@ -39,3 +39,15 @@ table#iseseisevtöö3, td {
     paddiing: 5px; /*vahetekstist ääriseni*/
     /*border-collapse: collapse;*/
 }
+#uus{
+    width: 50%;
+    height: 200px;
+}
+#uus tr:nth-child(1) td:nth-child(1){
+    background-color: red;
+    width: 25px;
+}
+    #uus tr:nth-child(2) td:nth-child(2){
+        background-color: deepskyblue;
+        width: 25px;
+}
