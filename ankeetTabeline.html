@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Muusika ankeet</title>
+    <link rel="stylesheet" href="vormidStyle.css">
+</head>
+<body>
+<h1>Muusika ankeet</h1>
+<form action="#">
+    <table border="1">
+        <tr>
+            <td>
+                <label for="eesnimi">Eesnimi</label>
+            </td>
+            <td>
+                <input type="text" id="eesnimi" placeholder="kirjuta nimi">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>- Vali rühm:</strong>
+            </td>
+            <td>
+                <input type="radio" id="titpv24" name="ryhm" value="titpv24" checked>
+                <label for="titpv24">TITpv24</label>
+
+                <input type="radio" id="logitpv24" name="ryhm" value="logitpv24">
+                <label for="logitpv24">LOGITpv24</label>
+
+                <input type="radio" id="tarpv24" name="ryhm" value="tarpv24">
+                <label for="tarpv24">TARpv24</label>
+
+                <input type="radio" id="krrpv24" name="ryhm" value="krrpv24">
+                <label for="krrpv24">KRRpv24</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="tund1"><strong>- Mitu tundi päevas sa kuulad muusikat?</strong></label>
+            </td>
+            <td>
+                <select name="tund1" id="tund1">
+                    <option value="10 min">10 min</option>
+                    <option value="30 min">30 min</option>
+                    <option value="1 tund">1 tund</option>
+                    <option value="2 tund">2 tund</option>
+                    <option value="24 tundi">24 tundi</option>
+                </select>
+                <br>
+                0 tundi <input type="range" min="0" max="24" id="range"> 24 tundi
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>- Kas sa kuulad raadiot?</strong>
+            </td>
+            <td>
+                <input type="radio" id="radio_jah" name="radio" value="jah">
+                <label for="radio_jah">Jah</label>
+                <br>
+                <input type="radio" id="radio_ei" name="radio" value="ei">
+                <label for="radio_ei">Ei</label>
+                <br>
+                <input type="radio" id="radio_mõnikord" name="radio" value="mõnikord">
+                <label for="radio_mõnikord">Kuulan mõnikord, näiteks autos</label>
+                <br><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>- Milliseid raadiojaamu sa oskad nimetada?</strong>
+            </td>
+            <td>
+                <input type="checkbox" id="humorfm" value="humorfm">
+                <label for="humorfm">"Humor FM"</label>
+                <br>
+                <input type="checkbox" id="rockfm" value="rockfm">
+                <label for="rockfm">"Rock FM"</label>
+                <br>
+                <input type="checkbox" id="skyradio" value="skyradio">
+                <label for="skyradio">"Sky radio"</label>
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>- Mis värvi on džäss?</strong>
+            </td>
+            <td>
+                <input type="color" id="varv">
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>- Millal sa käisid viimati muusika kontserdil?</strong>
+            </td>
+            <td>
+                <input type="radio" id="kontsert_eelmiselaastal" name="kontsert" value="eelmiselaastal">
+                <label for="kontsert_eelmiselaastal">Eelmisel aastal</label>
+                <br>
+                <input type="radio" id="kontsert_eelmiselnädalal" name="kontsert" value="eelmiselnädalal">
+                <label for="kontsert_eelmiselnädalal">Eelmisel nädalal</label>
+                <br>
+                <input type="radio" id="kontsert_eelmiselkuuel" name="kontsert" value="eelmiselkuuel">
+                <label for="kontsert_eelmiselkuuel">Eelmisel kuuel</label>
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>- Milline muusikat sa kuulad?</strong>
+            </td>
+            <td>
+                <br>
+                <input type="checkbox" id="pop" value="pop">
+                <label for="pop">Pop muusika</label>
+                <br>
+                <input type="checkbox" id="disco" value="disco">
+                <label for="disco">Disko muusika</label>
+                <br>
+                <input type="checkbox" id="dzaass" value="dzaass">
+                <label for="dzaass">Džäss muusika</label>
+                <br>
+                <input type="checkbox" id="elektrooniline" value="elektrooniline">
+                <label for="elektrooniline">Elektrooniline muusika</label>
+                <br>
+                <input type="checkbox" id="klassikaline" value="klassikaline">
+                <label for="klassikaline">Klassikaline muusika</label>
+                <br><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Saada">
+            </td>
+            <td>
+                <input type="reset" value="Puhasta">
+            </td>
+        </tr>
+    </table>
+
+</form>
+</body>
+</html>
