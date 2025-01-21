@@ -1,0 +1,43 @@
+body{
+    font-family: Verdana, serif; /*fondi tüüp*/
+    background-color: blueviolet; /*taust*/
+}
+input[type=text]{
+    width: 25%;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    border: 1px solid darkmagenta;
+    border-radius: 10px;
+    border-bottom: 3px solid blueviolet;
+    background-color: lightgray;
+    color: purple; /*tekstivarv*/
+}
+input[type=radio]:focus{
+    padding: 10px;
+    background-color: darkmagenta;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+select{
+    width: 10%;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    border: 1px solid darkmagenta;
+    border-radius: 10px;
+    border-bottom: 3px solid blueviolet;
+    background-color: lightgray;
+    color: purple; /*tekstivarv*/
+    cursor: pointer;
+}
+input[type=reset],input[type=button]{
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    border: 1px solid darkmagenta;
+    border-radius: 10px;
+    border-bottom: 3px solid blueviolet;
+    background-color: lightgray;
+    color: purple; /*tekstivarv*/
+}
