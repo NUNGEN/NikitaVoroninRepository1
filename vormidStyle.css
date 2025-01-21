@@ -41,3 +41,38 @@ input[type=reset],input[type=button]{
     background-color: lightgray;
     color: purple; /*tekstivarv*/
 }
+table{
+    width: 60%;
+    padding: 10px; /*vahe tekstist ääriseni*/
+    border-collapse: collapse;
+    border: 1px solid darkmagenta;
+    margin: 5px; /*vahelehest tabelini*/
+}
+td{
+    padding: 10px;
+    text-align: center;
+}
+input[type=checkbox] + label{
+    display: inline-block;
+    width: 60%;
+    padding: 10px;
+    padding-left: 40px ;
+    cursor: pointer;
+    border: 1px solid purple;
+    height: 32px;
+    padding-left: 35px;
+}
+input[type=radio] + label{
+    display: inline-block;
+    width: 60%;
+    padding: 10px;
+    padding-left: 40px ;
+    cursor: pointer;
+    border: 1px solid purple;
+    height: 32px;
+    padding-left: 35px;
+}
+    h1 {
+        text-align: left;
+        margin-left: 325px;
+    }
